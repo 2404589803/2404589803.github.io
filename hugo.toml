@@ -103,15 +103,8 @@ DefaultContentLanguageInSubdir = true
     website = "twitter"
     url = "https://twitter.com/"
   [[params.homepage.social.icons]]
-    website = "telegram"
-    url = "https://t.me/"
-  [[params.homepage.social.icons]]
     website = "github"
     url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-
   [[params.homepage.social.icons]]
     website = "youtube"
     url = "https://youtube.com"
