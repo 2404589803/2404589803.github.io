@@ -6,15 +6,15 @@
     {{ .Site.Title }}
     {{ end }}
   </a>
-  <ul class="flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+  <ul class="flex items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
 
     {{ range .Site.Menus.main }}
-    <li class="inline"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+    <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
     {{ end }}
 
     {{ if .Site.IsMultiLingual }}
     {{ if ge (len .Site.Languages) 3 }}
-    <li class="relative cursor-pointer inline">
+    <li class="relative cursor-pointer">
       <span class="language-switcher flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -43,7 +43,7 @@
       </div>
     </li>
     {{ else }}
-    <li class="flex items-center inline">
+    <li class="flex items-center">
       {{ range .Site.Languages }}
       {{ if not (eq .Lang $.Site.Language.Lang) }}
       <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5"
@@ -63,7 +63,7 @@
     {{ end }}
 
     {{ if .Site.Params.enableSearch }}
-    <li class="grid place-items-center inline">
+    <li class="grid place-items-center">
       <span class="open-search inline-block cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -76,7 +76,7 @@
     {{ end }}
 
     {{ if .Site.Params.darkModeToggle }}
-    <li class="grid place-items-center inline">
+    <li class="grid place-items-center">
       <span class="toggle-dark-mode inline-block cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -96,4 +96,3 @@
     {{ end }}
   </ul>
 </header>
-
