@@ -1,9 +1,10 @@
 <section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
   <div class="container max-w-screen-lg mx-auto px-6 py-12 flex">
-    <div class="mr-auto"> <!-- Changed ml-auto to mr-auto -->
-      <h1 class="text-4xl font-bold mb-4">{{ .Site.Params.introTitle | safeHTML}}</h1> <!-- Removed text-right -->
-      <p class="font-light text-lg">{{ .Site.Params.introSubtitle | safeHTML}}</p> <!-- Removed text-right -->
+    <div class="mr-auto text-left"> <!-- 確保文字靠左 -->
+      <h1 class="text-4xl font-bold mb-4">{{ .Site.Params.introTitle | safeHTML}}</h1>
+      <p class="font-light text-lg">{{ .Site.Params.introSubtitle | safeHTML}}</p>
     </div>
   </div>
 </section>
+
 
