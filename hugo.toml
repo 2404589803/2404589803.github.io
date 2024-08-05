@@ -11,8 +11,6 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "This is GLM!"
-      introSubtitle = "Teaching Machines to Think Like Humans"
       introPhoto = "/picture.jpg"
       logo = "/blist-logo.png"
         [[languages.en.menu.main]]
