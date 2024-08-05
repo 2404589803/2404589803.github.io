@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on GLM</title>
+    <link>http://localhost:1313/en/page/</link>
+    <description>Recent content in Pages on GLM</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About US</title>
+      <link>http://localhost:1313/en/page/about/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/page/about/</guid>
+      <description>We are a leading artificial intelligence company in China, focused on developing advanced AI technologies and applications. We specializes in natural language processing, machine learning, and data analysis, offering solutions that enhance business intelligence and operational efficiency. We provides a range of products and services, including AI-driven data platforms, intelligent customer service, and AI education platforms. We innovative solutions cater to various industries, aiming to drive digital transformation and improve decision-making processes.</description>
+    </item>
+  </channel>
+</rss>
