@@ -55,9 +55,7 @@ A mushroom transforms into a little bear.
 
 #### Generated
 
-![Alt text](https://img.youtube.com/vi/yYhZpq3LoVE/0.jpg)
-[Watch the video](https://www.youtube.com/watch?v=yYhZpq3LoVE)
-
+{{< youtube yYhZpq3LoVE >}}
 
 ### Example 3
 
@@ -67,8 +65,7 @@ Little yellow duck toy floating on the water in the swimming pool, close-up
 
 #### Generated
 
-![Alt text](https://img.youtube.com/vi/9GxJaMSEKnA/0.jpg)
-[Watch the video](https://www.youtube.com/watch?v=9GxJaMSEKnA)
+{{< youtube 9GxJaMSEKnA >}}
 
 
 ### Example 4
@@ -79,6 +76,5 @@ Falling snowflakes, a little bird playing on the branch.
 
 #### Generated
 
-![Alt text](https://img.youtube.com/vi/XLBzjfm_cXk/0.jpg)
-[Watch the video](https://www.youtube.com/watch?v=XLBzjfm_cXk)
+{{< youtube XLBzjfm_cXk>}}
 
