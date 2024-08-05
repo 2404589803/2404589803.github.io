@@ -28,7 +28,7 @@ DefaultContentLanguageInSubdir = true
         weight = 3
 [params]
   # Enable the darkmode toggle in header
-  darkModeToggle = true
+  darkModeToggle = false
   
   # Enable search in header
   enableSearch = false
