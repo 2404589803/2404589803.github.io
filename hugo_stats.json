@@ -45,7 +45,6 @@
     ],
     "classes": [
       "absolute",
-      "bg-black",
       "bg-gray-100",
       "bg-white",
       "border",
