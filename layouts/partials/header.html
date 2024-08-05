@@ -7,11 +7,10 @@
     {{ end }}
   </a>
   <ul class="flex items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
-    {{- partial "social.html" . -}}
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
     {{ end }}
-
+    {{- partial "social.html" . -}}
     {{ if .Site.IsMultiLingual }}
     {{ if ge (len .Site.Languages) 3 }}
     <li class="relative cursor-pointer">
