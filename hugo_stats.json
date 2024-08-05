@@ -137,6 +137,7 @@
       "select-none",
       "shadow",
       "shadow-sm",
+      "sticky",
       "text-2xl",
       "text-3xl",
       "text-4xl",
@@ -151,12 +152,14 @@
       "text-xl",
       "toc",
       "toggle-dark-mode",
+      "top-0",
       "top-4",
       "transform",
       "transition-colors",
       "w-1/2",
       "w-full",
-      "z-10"
+      "z-10",
+      "z-50"
     ],
     "ids": [
       "1-review",
