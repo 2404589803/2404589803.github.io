@@ -1,7 +1,7 @@
 ---
 author: "zhpu AI"
 title: "CogVideoX:A Cutting-Edge Video Generation Models"
-date: 2024-08-04
+date: 2024-07-26
 draft: false
 thumbnail: /cogvideox.jpg
 ---
