@@ -8,23 +8,21 @@
   <style>
     .header-container {
       transition: background-color 0.3s, color 0.3s;
+      color: black; /* Default text color */
+      background-color: white; /* Default background color */
     }
     .header-container.bg-black {
-      background-color: black; /* Black background */
-      color: white; /* White text color */
-    }
-    .header-container.bg-white {
-      background-color: white; /* White background */
-      color: black; /* Black text color */
+      background-color: black; /* Black background when scrolled */
+      color: white; /* White text color when scrolled */
     }
     .header-container a {
       transition: color 0.3s;
     }
     .header-container.bg-black a {
-      color: white;
+      color: white; /* White link color when scrolled */
     }
     .header-container.bg-white a {
-      color: black;
+      color: black; /* Black link color when at the top */
     }
     .language-dropdown {
       display: none;
@@ -35,7 +33,7 @@
   </style>
 </head>
 <body>
-  <header class="header-container container flex justify-between items-center p-6 mx-auto relative sticky top-0 z-50 bg-black">
+  <header class="header-container container flex justify-between items-center p-6 mx-auto relative sticky top-0 z-50">
     <a href="{{ .Site.Home.Permalink }}" class="header-title capitalize font-extrabold text-2xl">
       {{ if .Site.Params.logo }}
       <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="h-8 max-w-full" />
@@ -138,11 +136,11 @@
       const header = document.querySelector('.header-container');
       window.addEventListener('scroll', () => {
         if (window.scrollY > 50) { // Adjust scroll position as needed
-          header.classList.add('bg-white');
-          header.classList.remove('bg-black');
-        } else {
           header.classList.add('bg-black');
           header.classList.remove('bg-white');
+        } else {
+          header.classList.add('bg-white');
+          header.classList.remove('bg-black');
         }
       });
     });
