@@ -1,5 +1,5 @@
 baseurl = "https://2404589803.github.io/"
-metaDataFormat = "toml"
+metaDataFormat = "yaml"
 title = "GLM"
 theme = "blist"
 
