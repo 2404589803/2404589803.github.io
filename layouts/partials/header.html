@@ -1,4 +1,4 @@
-<header class="container flex justify-between gap-4 flex-wrap p-6 mx-auto relative">
+<header class="container flex justify-between gap-4 flex-wrap p-6 mx-auto relative sticky top-0 z-50 bg-white dark:bg-gray-800">
   <a href="{{ .Site.Home.Permalink }}" class="capitalize font-extrabold text-2xl">
     {{ if .Site.Params.logo }}
     <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="h-8 max-w-full" />
@@ -6,7 +6,7 @@
     {{ .Site.Title }}
     {{ end }}
   </a>
-  <ul class="flex items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+  <ul class="flex items-center gap-4 lg:gap-6">
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
     {{ end }}
