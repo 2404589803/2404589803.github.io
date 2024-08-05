@@ -44,6 +44,7 @@
     ],
     "classes": [
       "absolute",
+      "bg-blue-100",
       "bg-gray-100",
       "bg-white",
       "border",
@@ -144,6 +145,7 @@
       "text-gray-500",
       "text-gray-800",
       "text-gray-900",
+      "text-left",
       "text-lg",
       "text-sm",
       "text-white",
