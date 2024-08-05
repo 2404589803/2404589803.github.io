@@ -92,7 +92,6 @@
       "lg:gap-8",
       "lg:grid-cols-3",
       "lg:prose-lg",
-      "max-w-4xl",
       "max-w-5xl",
       "max-w-full",
       "max-w-screen-lg",
