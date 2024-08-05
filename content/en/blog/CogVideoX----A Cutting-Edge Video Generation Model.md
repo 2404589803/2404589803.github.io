@@ -3,7 +3,7 @@ author: "zhpu AI"
 title: "CogVideoX:A Cutting-Edge Video Generation Models"
 date: 2024-07-26
 draft: false
-thumbnail: /cogvideox.jpg
+thumbnail: /cogvideox.png
 ---
 
 As a highly complex system, human cognitive function relies on the collaborative work between various regions of the brain, which involves not only the processing of text and language, but also multiple aspects such as visual understanding and auditory processing.
