@@ -44,8 +44,7 @@ Low-angle forward movement, slowly looking up, a dragon suddenly appears atop th
 
 #### Generated
 
-![Alt text](https://img.youtube.com/vi/fVetKRMMT64/0.jpg)
-[Watch the video](https://www.youtube.com/watch?v=fVetKRMMT64)
+{{< youtube fVetKRMMT64 >}}
 
 
 ### Example 2
