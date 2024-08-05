@@ -1,4 +1,4 @@
-name: Deploy Hugo site to GitHub Pages1
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -12,6 +12,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install PostCSS and autoprefixer
+        run: |
+          npm install -g postcss postcss-cli autoprefixer
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
