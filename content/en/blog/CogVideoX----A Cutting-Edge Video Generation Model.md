@@ -32,7 +32,7 @@ The main features are as follows:
 
 In addition, we have also deployed "Ying" (清影) on the Zhipu Large Model Open Platform bigmodel.cn. Enterprises and developers can experience and use the text generation video and image generation video functions of "Ying"（清影） through API calls.
 
-# DEMO
+**DEMO**
 
 ## Text-to-Video
 
