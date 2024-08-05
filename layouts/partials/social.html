@@ -7,19 +7,6 @@
   <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
     {{range .Site.Params.homepage.social.icons}}
     
-    {{ if eq .website "discord" }}
-    <li>
-      <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="Discord" class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <circle cx="9" cy="12" r="1" />
-          <circle cx="15" cy="12" r="1" />
-          <path d="M7 8c-1.333 1.333 -2 2.667 -2 4h2l1 -2h4l1 2h2c0 -1.333 -.667 -2.667 -2 -4" />
-          <path d="M15 16h-6l-2 2h10z" />
-        </svg>
-      </a>
-    </li>
-    {{ end }}
     {{ if eq .website "twitter" }}
     <li>
       <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="Twitter" class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300">
