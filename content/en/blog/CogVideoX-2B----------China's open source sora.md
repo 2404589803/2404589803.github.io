@@ -1,5 +1,5 @@
 ---
-author: "zhpu AI"
+author: "zhipu AI"
 title: "CogVideoX-2B: China's open source "sora""
 date: 2024-08-06
 draft: false

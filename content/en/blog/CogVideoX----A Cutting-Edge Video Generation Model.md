@@ -1,5 +1,5 @@
 ---
-author: "zhpu AI"
+author: "zhpiu AI"
 title: "CogVideoX:A Cutting-Edge Video Generation Models"
 date: 2024-07-26
 draft: false
