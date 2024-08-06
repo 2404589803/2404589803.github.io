@@ -21,3 +21,9 @@ Model download: https://huggingface.co/THUDM/CogVideoX-2b
 
 Technical Report: https://github.com/THUDM/CogVideo/blob/main/resources/CogVideoX.pdf
 
+
+
+## 
+
+![alt text](/img_v3_02dg_dad99112-a43a-4e4e-82cc-c28243c1095g.png)
+
