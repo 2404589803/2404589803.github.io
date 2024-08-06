@@ -182,6 +182,7 @@
       "data-1",
       "deepspeed-ulysses",
       "divide-and-conquer-variable-length",
+      "heading",
       "native-variable-length",
       "ring-attention",
       "training",
