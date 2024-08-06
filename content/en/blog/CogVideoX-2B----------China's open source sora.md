@@ -16,5 +16,8 @@ CogVideoX -2B has a maximum of 226 tokens for prompt words, a video length of 6 
 Models with stronger performance and larger parameters are on the way , please pay attention and look forward to it.1
 
 Code repository: https://github.com/THUDM/CogVideo
+
 Model download: https://huggingface.co/THUDM/CogVideoX-2b
+
 Technical Report: https://github.com/THUDM/CogVideo/blob/main/resources/CogVideoX.pdf
+

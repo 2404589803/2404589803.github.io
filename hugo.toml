@@ -101,16 +101,13 @@ DefaultContentLanguageInSubdir = true
   # Global params common for both languages
   [[params.homepage.social.icons]]
     website = "twitter"
-    url = "https://twitter.com/"
+    url = "https://x.com/ChatGLM"
   [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/"
+    url = "https://github.com/THUDM"
   [[params.homepage.social.icons]]
     website = "youtube"
-    url = "https://youtube.com"
-    [[params.homepage.social.icons]]
-    website = "discord"
-    url = "https://discord.com"
+    url = "https://www.youtube.com/channel/UCSpG1gG4VdTFYBViakDFt8g"
 
 [[menu.main]]
   name = "About"
