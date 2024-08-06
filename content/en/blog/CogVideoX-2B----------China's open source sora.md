@@ -15,15 +15,20 @@ CogVideoX -2B has a maximum of 226 tokens for prompt words, a video length of 6 
 
 Models with stronger performance and larger parameters are on the way , please pay attention and look forward to it.1
 
-Code repository: https://github.com/THUDM/CogVideo
+**Code repository: https://github.com/THUDM/CogVideo*
 
-Model download: https://huggingface.co/THUDM/CogVideoX-2b
+**Model download: https://huggingface.co/THUDM/CogVideoX-2b*
 
-Technical Report: https://github.com/THUDM/CogVideo/blob/main/resources/CogVideoX.pdf
+**Experience link: https://huggingface.co/spaces/THUDM/CogVideoX*
+
+**Technical Report: https://github.com/THUDM/CogVideo/blob/main/resources/CogVideoX.pdf*
 
 
 
-## 
+## Model
 
 ![alt text](/img_v3_02dg_dad99112-a43a-4e4e-82cc-c28243c1095g.png)
 
+###  VAE
+
+Video data contains spatial and temporal information, and its data volume and computational burden far exceed that of image data. To address this challenge, we propose a video compression method based on 3D variational autoencoder (3D VAE). 3D VAE compresses the spatial and temporal dimensions of video through 3D convolution, achieving higher compression rate and better reconstruction quality.
