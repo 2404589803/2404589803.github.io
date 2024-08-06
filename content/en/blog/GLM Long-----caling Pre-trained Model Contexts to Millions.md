@@ -1,5 +1,4 @@
 ---
-author: "zhpu AI"
 title: "GLM Long: Scaling Pre-trained Model Contexts to Millions"
 date: 2024-07-18
 draft: false
