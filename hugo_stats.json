@@ -182,11 +182,12 @@
       "data-1",
       "deepspeed-ulysses",
       "divide-and-conquer-variable-length",
-      "heading",
+      "model",
       "native-variable-length",
       "ring-attention",
       "training",
-      "training-1"
+      "training-1",
+      "vae"
     ]
   }
 }
