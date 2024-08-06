@@ -14,7 +14,7 @@ CogVideoX open source model contains a number of different sizes of models , we 
 
 CogVideoX -2B has a maximum of 226 tokens for prompt words, a video length of 6 seconds, a frame rate of 8 frames per second, and a video resolution of 720 * 480. We have reserved a broad space for improving video quality and look forward to developers contributing to open source efforts in prompt word optimization, video length, frame rate, resolution, scene fine-tuning, and various feature development around videos.
 
-Models with stronger performance and larger parameters are on the way , please pay attention and look forward to it.
+Models with stronger performance and larger parameters are on the way , please pay attention and look forward to it.1
 
 Code repository: https://github.com/THUDM/CogVideo
 Model download: https://huggingface.co/THUDM/CogVideoX-2b
