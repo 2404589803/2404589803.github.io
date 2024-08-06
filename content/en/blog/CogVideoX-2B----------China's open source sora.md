@@ -1,5 +1,5 @@
 ---
-title: "CogVideoX-2B: China's open source "sora"
+title: " CogVideoX-2B: China's open source sora "
 date: 2024-08-06
 draft: false
 thumbnail: /CogVideoX-2B.png
